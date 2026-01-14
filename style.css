@@ -1,75 +1,82 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f2f2;
-  color: #222;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#page-wrapper {
-  width: 80%;
-  max-width: 1280px;
-  margin: 0 auto;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
 }
+
+
+.page-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
 
 .intro {
-  height: 550px;
+    margin-bottom: 40px;
 }
-
-.intro header {
-  background-color: #222;
-  color: #f2f2f2;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
 
 .intro h1 {
-  margin-left: 1em;
+    margin-bottom: 10px;
+    color: #1f295c;
 }
 
 
-.main p {
-  line-height: 1.5;
-  text-indent: 1em;
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+}
+
+.explanation h2 {
+    margin-bottom: 15px;
+    color: #1f295c;
+}
+
+.explanation p {
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 
-.sidebar {
-  text-align: center;
-  margin-top: 20px;
+.design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    width: 35%;
+    padding: 0 2%;
 }
 
-.sidebar ul {
-  list-style: none;
-  padding: 0;
+.design-selection h2 {
+    margin-bottom: 15px;
+    color: #1f295c;
 }
 
-.sidebar li {
-  margin-bottom: 1em;
+.design-selection ul {
+    list-style: none;
 }
 
-.sidebar a {
-  text-decoration: none;
-  color: #222;
+.design-selection li {
+    margin-bottom: 10px;
 }
 
-
-footer {
-  background-color: #222;
-  color: #f2f2f2;
-  margin-top: 4%;
-  padding: 20px;
-  text-align: center;
+.design-selection a {
+    text-decoration: none;
+    color: #1f295c;
+    font-weight: bold;
 }
 
-
-footer a {
-  display: inline-block;
-  border: 2px solid #f2f2f2;
-  padding: 0.5em;
-  margin: 0.3em;
-  color: #f2f2f2;
-  text-decoration: none;
+.design-selection a:hover {
+    text-decoration: underline;
 }
-
